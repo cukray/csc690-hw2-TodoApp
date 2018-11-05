@@ -15,6 +15,8 @@
 		A8D5B1482190315300FDA202 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8D5B1462190315300FDA202 /* LaunchScreen.storyboard */; };
 		A8D5B1532190315300FDA202 /* TodoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D5B1522190315300FDA202 /* TodoAppTests.swift */; };
 		A8D5B15E2190315400FDA202 /* TodoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D5B15D2190315400FDA202 /* TodoAppUITests.swift */; };
+		A8D5B16C2190337800FDA202 /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D5B16B2190337800FDA202 /* TaskCell.swift */; };
+		A8D5B16E219033B400FDA202 /* AddTaskController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D5B16D219033B400FDA202 /* AddTaskController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		A8D5B1592190315400FDA202 /* TodoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8D5B15D2190315400FDA202 /* TodoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoAppUITests.swift; sourceTree = "<group>"; };
 		A8D5B15F2190315400FDA202 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8D5B16B2190337800FDA202 /* TaskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
+		A8D5B16D219033B400FDA202 /* AddTaskController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		A8D5B13A2190315200FDA202 /* TodoApp */ = {
 			isa = PBXGroup;
 			children = (
+				A8D5B16B2190337800FDA202 /* TaskCell.swift */,
 				A8D5B13B2190315200FDA202 /* AppDelegate.swift */,
 				A8D5B13D2190315200FDA202 /* FirstViewController.swift */,
 				A8D5B13F2190315200FDA202 /* SecondViewController.swift */,
@@ -106,6 +111,7 @@
 				A8D5B1442190315300FDA202 /* Assets.xcassets */,
 				A8D5B1462190315300FDA202 /* LaunchScreen.storyboard */,
 				A8D5B1492190315300FDA202 /* Info.plist */,
+				A8D5B16D219033B400FDA202 /* AddTaskController.swift */,
 			);
 			path = TodoApp;
 			sourceTree = "<group>";
@@ -259,6 +265,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8D5B16C2190337800FDA202 /* TaskCell.swift in Sources */,
+				A8D5B16E219033B400FDA202 /* AddTaskController.swift in Sources */,
 				A8D5B1402190315200FDA202 /* SecondViewController.swift in Sources */,
 				A8D5B13C2190315200FDA202 /* AppDelegate.swift in Sources */,
 				A8D5B13E2190315200FDA202 /* FirstViewController.swift in Sources */,
